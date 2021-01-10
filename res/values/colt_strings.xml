@@ -171,4 +171,9 @@
     <string name="colt_version_battery">Battery</string>
     <string name="colt_version_ram">RAM</string>
     <string name="colt_version_maintainer">Maintainer</string>
+
+    <!-- About phone cards -->
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Occupied</string>
+    <string name="about_device_rom_title">ColtOS</string>
 </resources>
