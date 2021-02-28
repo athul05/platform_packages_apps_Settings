@@ -41,7 +41,6 @@ public class RomCardView extends AboutBaseCard {
         ImageView rom_logo = new ImageView(context);
         rom_logo.setPadding(72, 72, 72, 72);
         rom_logo.setAdjustViewBounds(true);
-        rom_logo.setImageTintList(ColorStateList.valueOf(Utils.getColorAttrDefaultColor(context, android.R.attr.colorAccent)));
         linearLayout.setId(R.id.rom_logo_id);
         rom_logo.setImageResource(R.drawable.ic_rom_logo);
         RelativeLayout.LayoutParams rlparams = new RelativeLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT);
